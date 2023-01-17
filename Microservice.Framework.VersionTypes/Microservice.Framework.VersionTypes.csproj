@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
 	  <PackageId>Microservice.Framework.VersionTypes</PackageId>
-	  <Version>1.0.0</Version>
+	  <Version>7.0.0</Version>
 	  <Authors>Lwandile Mfundisi</Authors>
 	  <Description>Microservice.Framework.VersionTypes</Description>
 	  <IsPackable>true</IsPackable>
@@ -14,7 +14,7 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microservice.Framework.Ioc" Version="1.0.0" />
+		<PackageReference Include="Microservice.Framework.Ioc" Version="7.0.0" />
 	</ItemGroup>
 	
 	<Target DependsOnTargets="ResolveReferences" Name="CopyProjectReferencesToPackage">
